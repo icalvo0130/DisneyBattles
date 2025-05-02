@@ -1,0 +1,22 @@
+{
+    "name": "disney-battles",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "dev": "webpack serve --mode development",
+      "start": "npm run dev"
+    },
+    "keywords": ["typescript", "flux", "custom elements", "web components"],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "copy-webpack-plugin": "^11.0.0",
+      "html-webpack-plugin": "^5.5.0",
+      "ts-loader": "^9.4.2",
+      "typescript": "^5.0.4",
+      "webpack": "^5.82.1",
+      "webpack-cli": "^5.1.1",
+      "webpack-dev-server": "^4.15.0"
+    }
+  }
